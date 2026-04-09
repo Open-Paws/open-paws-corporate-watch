@@ -1,0 +1,371 @@
+{
+  "_note": "Seed data for open-paws-corporate-watch. Based on publicly known corporate welfare commitments as of 2026. Status reflects last known public reporting.",
+  "companies": [
+    {
+      "company_id": "mcdonalds",
+      "name": "McDonald's",
+      "domain": "mcdonalds.com",
+      "sector": "fast food",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "mcdonalds-cage-free-us",
+          "category": "CAGE_FREE",
+          "description": "Transition to 100% cage-free eggs in US supply chain by 2025",
+          "original_announcement_url": "https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact/better-sourcing/animal-health-and-welfare.html",
+          "announced_date": "2015-09-09",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": 30.0,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact/better-sourcing/animal-health-and-welfare.html"
+        },
+        {
+          "commitment_id": "mcdonalds-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Eliminate gestation crates from US pork supply chain",
+          "original_announcement_url": "https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact/better-sourcing/animal-health-and-welfare.html",
+          "announced_date": "2012-02-13",
+          "target_date": "2022-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        },
+        {
+          "commitment_id": "mcdonalds-antibiotic-reduction",
+          "category": "ANTIBIOTIC_REDUCTION",
+          "description": "Eliminate medically important antibiotics from global beef supply by 2027",
+          "original_announcement_url": "https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact/better-sourcing/animal-health-and-welfare.html",
+          "announced_date": "2018-12-01",
+          "target_date": "2027-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "walmart",
+      "name": "Walmart",
+      "domain": "walmart.com",
+      "sector": "grocery",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "walmart-cage-free-us",
+          "category": "CAGE_FREE",
+          "description": "Transition all own-brand eggs to cage-free in US by 2025",
+          "original_announcement_url": "https://corporate.walmart.com/esgreport/environmental-social-governance/animal-welfare",
+          "announced_date": "2016-04-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": 15.0,
+          "last_verified_date": "2024-03-01",
+          "verification_source": "https://corporate.walmart.com/esgreport"
+        },
+        {
+          "commitment_id": "walmart-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Require suppliers to provide group housing for sows by 2025",
+          "original_announcement_url": "https://corporate.walmart.com/esgreport/environmental-social-governance/animal-welfare",
+          "announced_date": "2015-06-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        },
+        {
+          "commitment_id": "walmart-third-party-audit",
+          "category": "THIRD_PARTY_AUDIT",
+          "description": "Require third-party animal welfare audits for all Tier 1 animal protein suppliers",
+          "original_announcement_url": "https://corporate.walmart.com/esgreport/environmental-social-governance/animal-welfare",
+          "announced_date": "2019-01-01",
+          "target_date": "2023-12-31",
+          "status": "UNVERIFIED",
+          "percent_complete": null,
+          "last_verified_date": null,
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "costco",
+      "name": "Costco",
+      "domain": "costco.com",
+      "sector": "grocery",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "costco-cage-free",
+          "category": "CAGE_FREE",
+          "description": "Transition all shell eggs sold to cage-free by 2025",
+          "original_announcement_url": "https://www.costco.com/sustainability-animal-welfare.html",
+          "announced_date": "2016-03-01",
+          "target_date": "2025-12-31",
+          "status": "COMPLETED",
+          "percent_complete": 100.0,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://www.costco.com/sustainability-animal-welfare.html"
+        },
+        {
+          "commitment_id": "costco-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Require Kirkland Signature pork suppliers to eliminate gestation crates",
+          "original_announcement_url": "https://www.costco.com/sustainability-animal-welfare.html",
+          "announced_date": "2015-01-01",
+          "target_date": "2022-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "compass-group",
+      "name": "Compass Group",
+      "domain": "compass-group.com",
+      "sector": "food service",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "compass-cage-free-us",
+          "category": "CAGE_FREE",
+          "description": "Source 100% cage-free eggs in North America by 2025",
+          "original_announcement_url": "https://www.compass-group.com/en/about-us/responsible-business/animal-welfare.html",
+          "announced_date": "2016-10-01",
+          "target_date": "2025-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": 72.0,
+          "last_verified_date": "2024-04-01",
+          "verification_source": "https://www.compass-group.com/content/dam/compass-group/corporate/Governance/modern-slavery/2024-responsible-sourcing-report.pdf"
+        },
+        {
+          "commitment_id": "compass-cage-free-global",
+          "category": "CAGE_FREE",
+          "description": "Source 100% cage-free eggs globally by 2025",
+          "original_announcement_url": "https://www.compass-group.com/en/about-us/responsible-business/animal-welfare.html",
+          "announced_date": "2016-10-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": 45.0,
+          "last_verified_date": "2024-04-01",
+          "verification_source": "https://www.compass-group.com/content/dam/compass-group/corporate/Governance/modern-slavery/2024-responsible-sourcing-report.pdf"
+        },
+        {
+          "commitment_id": "compass-slaughter-method",
+          "category": "SLAUGHTER_METHOD",
+          "description": "Transition to controlled atmosphere stunning (CAS) for poultry across supply chain by 2026",
+          "original_announcement_url": "https://www.compass-group.com/en/about-us/responsible-business/animal-welfare.html",
+          "announced_date": "2020-01-01",
+          "target_date": "2026-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "sodexo",
+      "name": "Sodexo",
+      "domain": "sodexo.com",
+      "sector": "food service",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "sodexo-cage-free-us",
+          "category": "CAGE_FREE",
+          "description": "100% cage-free eggs in all North American operations by 2025",
+          "original_announcement_url": "https://www.sodexo.com/en/sustainability/better-tomorrow-commitments/animal-welfare.html",
+          "announced_date": "2016-09-01",
+          "target_date": "2025-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": 80.0,
+          "last_verified_date": "2024-03-01",
+          "verification_source": "https://www.sodexo.com/en/sustainability/better-tomorrow-2025-progress.html"
+        },
+        {
+          "commitment_id": "sodexo-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Require gestation crate-free pork across global supply chain by 2025",
+          "original_announcement_url": "https://www.sodexo.com/en/sustainability/better-tomorrow-commitments/animal-welfare.html",
+          "announced_date": "2016-09-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "aramark",
+      "name": "Aramark",
+      "domain": "aramark.com",
+      "sector": "food service",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "aramark-cage-free",
+          "category": "CAGE_FREE",
+          "description": "Source 100% cage-free eggs in US by 2026",
+          "original_announcement_url": "https://www.aramark.com/sustainability/animal-welfare",
+          "announced_date": "2016-09-01",
+          "target_date": "2026-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": 65.0,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://www.aramark.com/sustainability"
+        }
+      ]
+    },
+    {
+      "company_id": "subway",
+      "name": "Subway",
+      "domain": "subway.com",
+      "sector": "fast food",
+      "revenue_tier": "Fortune 1000",
+      "commitments": [
+        {
+          "commitment_id": "subway-cage-free-us",
+          "category": "CAGE_FREE",
+          "description": "Transition to 100% cage-free eggs in US by 2025",
+          "original_announcement_url": "https://www.subway.com/en-us/ourworld/goodbusiness/animalcare",
+          "announced_date": "2016-01-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": 20.0,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        },
+        {
+          "commitment_id": "subway-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Require gestation crate-free pork in US supply chain by 2024",
+          "original_announcement_url": "https://www.subway.com/en-us/ourworld/goodbusiness/animalcare",
+          "announced_date": "2012-01-01",
+          "target_date": "2024-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        }
+      ]
+    },
+    {
+      "company_id": "tyson-foods",
+      "name": "Tyson Foods",
+      "domain": "tysonfoods.com",
+      "sector": "food manufacturer",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "tyson-cage-free",
+          "category": "CAGE_FREE",
+          "description": "Transition all Tyson brand eggs to cage-free by 2022",
+          "original_announcement_url": "https://www.tysonfoods.com/sustainability/food/animal-wellbeing",
+          "announced_date": "2016-04-01",
+          "target_date": "2022-12-31",
+          "status": "DELAYED",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        },
+        {
+          "commitment_id": "tyson-antibiotic-reduction",
+          "category": "ANTIBIOTIC_REDUCTION",
+          "description": "Eliminate use of human-important antibiotics from all US broiler chicken operations",
+          "original_announcement_url": "https://www.tysonfoods.com/sustainability/food/animal-wellbeing",
+          "announced_date": "2015-04-28",
+          "target_date": "2017-09-01",
+          "status": "COMPLETED",
+          "percent_complete": 100.0,
+          "last_verified_date": "2018-01-01",
+          "verification_source": "https://www.tysonfoods.com/news/news-releases/2017/tyson-foods-announces-achievement-of-no-antibiotics-ever-for-its-mainstream-chicken-products"
+        }
+      ]
+    },
+    {
+      "company_id": "nestle",
+      "name": "Nestle",
+      "domain": "nestle.com",
+      "sector": "food manufacturer",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "nestle-cage-free-global",
+          "category": "CAGE_FREE",
+          "description": "Source 100% cage-free eggs globally by 2025",
+          "original_announcement_url": "https://www.nestle.com/csv/impact/animalwelfare",
+          "announced_date": "2012-01-01",
+          "target_date": "2025-12-31",
+          "status": "DELAYED",
+          "percent_complete": 55.0,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://www.nestle.com/sites/default/files/2024-03/nestle-annual-report-2023-en.pdf"
+        },
+        {
+          "commitment_id": "nestle-gestation-crate-free",
+          "category": "GESTATION_CRATE_FREE",
+          "description": "Require all pork suppliers to eliminate gestation crates globally by 2030",
+          "original_announcement_url": "https://www.nestle.com/csv/impact/animalwelfare",
+          "announced_date": "2018-01-01",
+          "target_date": "2030-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": null,
+          "last_verified_date": "2024-01-01",
+          "verification_source": null
+        },
+        {
+          "commitment_id": "nestle-third-party-audit",
+          "category": "THIRD_PARTY_AUDIT",
+          "description": "Third-party welfare audits for all Tier 1 animal protein suppliers globally",
+          "original_announcement_url": "https://www.nestle.com/csv/impact/animalwelfare",
+          "announced_date": "2020-01-01",
+          "target_date": "2025-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": 68.0,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://www.nestle.com/sites/default/files/2024-03/nestle-annual-report-2023-en.pdf"
+        }
+      ]
+    },
+    {
+      "company_id": "unilever",
+      "name": "Unilever",
+      "domain": "unilever.com",
+      "sector": "food manufacturer",
+      "revenue_tier": "Fortune 500",
+      "commitments": [
+        {
+          "commitment_id": "unilever-cage-free-global",
+          "category": "CAGE_FREE",
+          "description": "Source 100% cage-free eggs globally across all product lines by 2023",
+          "original_announcement_url": "https://www.unilever.com/planet-and-society/responsible-sourcing/animal-welfare/",
+          "announced_date": "2010-01-01",
+          "target_date": "2023-12-31",
+          "status": "COMPLETED",
+          "percent_complete": 100.0,
+          "last_verified_date": "2024-01-01",
+          "verification_source": "https://www.unilever.com/planet-and-society/responsible-sourcing/animal-welfare/"
+        },
+        {
+          "commitment_id": "unilever-slaughter-method",
+          "category": "SLAUGHTER_METHOD",
+          "description": "Require controlled atmosphere stunning for all poultry in supply chain by 2026",
+          "original_announcement_url": "https://www.unilever.com/planet-and-society/responsible-sourcing/animal-welfare/",
+          "announced_date": "2021-01-01",
+          "target_date": "2026-12-31",
+          "status": "ON_TRACK",
+          "percent_complete": null,
+          "last_verified_date": "2024-06-01",
+          "verification_source": "https://www.unilever.com/planet-and-society/responsible-sourcing/animal-welfare/"
+        }
+      ]
+    }
+  ]
+}
