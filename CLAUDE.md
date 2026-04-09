@@ -43,6 +43,29 @@ cd frontend && npm run dev
 python -m src.monitoring.scraper --companies all
 ```
 
+## Strategic Context — Investor Briefs (Current State as of 2026-04-09)
+
+Two investor briefs are complete and in distribution:
+
+**PLF Investor Brief** (`open-paws-strategy/strategy/plf-investor-brief.md`) — DONE
+- 5-page ESG analyst brief (159 lines)
+- Covers: EU AI Act compliance exposure, Theranos parallel, farmer dispossession risk, cage-free headwind, 5 due diligence questions
+- Status: Sam distributing to ESG analyst contacts now
+
+**Aquaculture Investor Brief** (`open-paws-strategy/strategy/aquaculture-investor-brief.md`) — DONE
+- Covers: Norway 2027 regulatory stress test, validation gap, eFishery precedent, $1.5-2B impact fund exposure map
+- Status: Complete, in distribution
+
+If you are working on investor brief content, check both files first — they are the canonical source. Do not create new briefs without reading these.
+
+## Funding Decision — Coefficient Giving Fish Welfare RFP
+
+**DO NOT apply to the Coefficient Giving fish welfare RFP ($7M).**
+
+Reason: The scope is humane slaughter technology. This fails the economic test — same category as PLF. Funding humane slaughter tech makes industrial aquaculture more welfare-defensible and extends its operational lifespan. It does not reduce the scale of exploitation; it legitimizes it. This decision is settled.
+
+If asked to draft an application or explore this opportunity: decline and explain the economic test failure.
+
 ## Seven Concerns
 This repo carries all seven Open Paws concerns. Key notes for this domain:
 - **Security**: Corporate monitoring data is not activist data — lower sensitivity, but sourcing strategies and reversal alerts should not leak to industry.
@@ -60,6 +83,7 @@ This repo carries all seven Open Paws concerns. Key notes for this domain:
 | Adding a new scrape target | `backend/src/monitoring/scraper.py` |
 | Building a new frontend component | `frontend/src/components/` |
 | Filing a new issue | Check `open-decisions.md` in strategy repo first |
+| Investor brief work | `open-paws-strategy/strategy/plf-investor-brief.md`, `open-paws-strategy/strategy/aquaculture-investor-brief.md` |
 
 ## Every Session
 
